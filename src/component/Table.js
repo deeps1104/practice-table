@@ -12,7 +12,7 @@ const Table = () => {
     }
     return (
         <div>
-            <h1>Table</h1>
+            <h1 style={{color:"green"}}>Table</h1>
             <input value={number} onChange={getNumber} placeholder="Enter Number"/>
             <button onClick={showTable}>Click</button>
         </div>
